@@ -45,9 +45,9 @@ export default function Review(){
                     </span>
                 </div>
                 <h4 className='author'>{name}</h4>
-                <p className="job">{job}</p>
+                <h6 className="job">{job}</h6>
                 <p className="info">{text}</p>
-                <div className="button-contaienr">
+                <div className="button-container">
                     <button className='prev-person' onClick={prevPerson}>
                         <FaChevronLeft/>
                     </button>
@@ -55,7 +55,7 @@ export default function Review(){
                         <FaChevronRight/>
                     </button>
                 </div>
-                <button onClick={randomPerson}>Surprise Me</button>
+                <button className='btn' onClick={randomPerson}>Surprise Me</button>
              </div>
         </section>
 
