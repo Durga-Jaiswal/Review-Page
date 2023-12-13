@@ -49,10 +49,10 @@ export default function Review(){
                 <p className="info">{text}</p>
                 <div className="button-container">
                     <button className='prev-person' onClick={prevPerson}>
-                        <FaChevronLeft/>
+                        <FaChevronLeft />
                     </button>
                     <button className='next-person' onClick={nextPerson}>
-                        <FaChevronRight/>
+                        <FaChevronRight />
                     </button>
                 </div>
                 <button className='btn' onClick={randomPerson}>Surprise Me</button>
